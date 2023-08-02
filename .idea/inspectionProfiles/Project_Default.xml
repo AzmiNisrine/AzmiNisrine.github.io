@@ -1,0 +1,60 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <value>
+          <list size="11">
+            <item index="0" class="java.lang.String" itemvalue="numpy" />
+            <item index="1" class="java.lang.String" itemvalue="coverage" />
+            <item index="2" class="java.lang.String" itemvalue="networkx" />
+            <item index="3" class="java.lang.String" itemvalue="deepchem" />
+            <item index="4" class="java.lang.String" itemvalue="Sphinx" />
+            <item index="5" class="java.lang.String" itemvalue="sphinx-rtd-theme" />
+            <item index="6" class="java.lang.String" itemvalue="pylint" />
+            <item index="7" class="java.lang.String" itemvalue="rinohtype" />
+            <item index="8" class="java.lang.String" itemvalue="rdkit-pypi" />
+            <item index="9" class="java.lang.String" itemvalue="bio" />
+            <item index="10" class="java.lang.String" itemvalue="myst-parser" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPep8Inspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="E501" />
+          <option value="E731" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPep8NamingInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="N811" />
+          <option value="N806" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="rdkit.DataStructs.TanimotoSimilarity" />
+          <option value="rdkit.DataStructs.DiceSimilarity" />
+          <option value="rdkit.DataStructs.CosineSimilarity" />
+          <option value="rdkit.DataStructs.KulczynskiSimilarity" />
+          <option value="rdkit.DataStructs.SokalSimilarity" />
+          <option value="rdkit.DataStructs.McConnaugheySimilarity" />
+          <option value="rdkit.DataStructs.RogotGoldbergSimilarity" />
+          <option value="rdkit.DataStructs.RusselSimilarity" />
+          <option value="rdkit.DataStructs.BraunBlanquetSimilarity" />
+          <option value="rdkit.DataStructs.TverskySimilarity" />
+          <option value="rdkit.Chem.MACCSkeys" />
+          <option value="rdkit.Chem.RDKFingerprint" />
+          <option value="rdkit.Chem.MolFromSmiles" />
+          <option value="rdkit.Chem.AllChem.GetMorganFingerprintAsBitVect" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
